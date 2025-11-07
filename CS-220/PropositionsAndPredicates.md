@@ -28,7 +28,7 @@
 | **Implication**   | IF...THEN         | ⇒ or →          | p → q        | "**If** it rains, **then** it is cold."         |
 | **Biconditional** | IF AND ONLY IF    | ⇔               | p ⇔ q        | "It rains **if and only if** it is cold."       |
 
-### <u>Predicates:</u> Are logical statements or expressions that contain oneor more variables and become a proposition when specific values areassigned to those variables
+### <ins>This text is underlined using the ins tag.</ins> Are logical statements or expressions that contain oneor more variables and become a proposition when specific values areassigned to those variables
 
 **Ex: P(x): "x is greater than 5"**
 
