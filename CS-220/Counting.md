@@ -9,9 +9,19 @@ How many different outfits does this give?**
 **<ins>Enumerating:</ins>** listing out all elements of a set or a collection,
 often in a specific order or for the purpose of counting.
 
+**<ins>Product rule:</ins>**
+**A burrito stand sells burritos with different choices of stuffing. The set of choices for each category are:**
+
+>Filling choices {chicken,beef,pork}
+>Bean choices {black,pinto}
+>Salsa choices {mild,medium,hot}
+
+**If every burrito has a filling, beans, and salsa, then how many possible burrito combinations are there?**
+> 3 x 2 x 3 = 18
+
 **Express the set of all outfits as 𝑂 = { P (𝑝, 𝑠) ∶ 𝑝 ∈ 𝑃, 𝑠 ∈ 𝑆 } ,
 where 𝑃 is the set of 6 pairs of pants and 𝑆 is the set of 10 shirts.
-Note that 𝑂 = 𝑃 × 𝑆, and so from set theory we have 𝑂 = 𝑃** 
+Note that 𝑂 = 𝑃 × 𝑆, and so from set theory we have 𝑂 = 𝑃**
 >𝑆 = 60.
 
 **Suppose you need to pick a password that has length 6-8 characters,
@@ -30,3 +40,14 @@ The podium is defined by who wins each of the three trophies. How many different
 possible**
 
 >20  19  18
+
+**<ins>Σ (Sigma):</ins>** In set theory and formal language theory Sigma is used to represent an alphabet,
+which is a finite set of symbols.
+
+>Σ^n is the set of all string of length n containing characters that come from the set >Σ. For example, if Σ = {1,0}, then Σ^6 is the set of all binary strings with 6 bits.
+>The product rule can also be used to determine the number of strings in a set of a >specific combination. 9.1.2
+
+**How many six bit binary strings begin with "01"?**
+>{0} x {1} x {0,1}^4 = 1 x 1 x 2^4 = 16
+
+**<ins>The sum rule:</ins>** The sum rule is applied when multiple choices are available but only one selection is made.
