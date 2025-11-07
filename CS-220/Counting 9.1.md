@@ -69,12 +69,12 @@ Ex: A customer just orders a drink. The customer selects a hot drink or a cold d
 
 **Formal Sum Rule:**
 
-$$\text{If } A_1, A_2, \dots, A_k \text{ are mutually exclusive events, then: } \\
+$$\text{If } A_1, A_2, \dots, A_k \text{ are mutually exclusive events, they cannot happen at same time, then: } \\
 P(A_1 \cup A_2 \cup \dots \cup A_k) = P(A_1) + P(A_2) + \dots + P(A_k)$$
 
 **Sum & product rule:**
 
->Ex: Laptop customization choices:
+Ex: Laptop customization choices:
 > - Screen Size: {14in, 15in, 17in}
 > - Processor Speed: {2.0 GHz, 2.7 Ghz}
 > - Storage: SSD OR HDD
@@ -82,3 +82,14 @@ P(A_1 \cup A_2 \cup \dots \cup A_k) = P(A_1) + P(A_2) + \dots + P(A_k)$$
 > - HDD - {256G, 512G}
 
 >> Laptop selection = 3 x 2 (3 + 2)
+
+Reminder: Disjoint sets means the sets have no elements in common.
+
+**How many six bit strings begin and end with a 1, or start with 00?:**
+
+>Start and end with 1
+> 1 x 2 x 2 x 2 x 2 x 1 = 2^4
+>Start with 00
+> 1 x 1 x 2 x 2 X 2 x 2 = 2^4
+>The sets are disjoint because you can't start with 1 and 0 at the same time
+> A ∩ B = ∅
