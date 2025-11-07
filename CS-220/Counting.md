@@ -75,10 +75,10 @@ P(A_1 \cup A_2 \cup \dots \cup A_k) = P(A_1) + P(A_2) + \dots + P(A_k)$$
 **Sum & product rule:**
 
 >Ex: Laptop customization choices:
->Screen Size: {14in, 15in, 17in}
->Processor Speed: {2.0 GHz, 2.7 Ghz}
->Storage: SSD OR HDD
->SSD - {126G, 256G, 512G}
->HDD - {256G, 512G}
+> - Screen Size: {14in, 15in, 17in}
+> - Processor Speed: {2.0 GHz, 2.7 Ghz}
+> - Storage: SSD OR HDD
+> - SSD - {126G, 256G, 512G}
+> - HDD - {256G, 512G}
 
 >> Laptop selection = 3 x 2 (3 + 2)
