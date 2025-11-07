@@ -1,4 +1,4 @@
-#Counting
+# Counting
 
 **You have 6 pairs of pants and 10 shirts. An outfit consists of a pair of
 pants and a shirt.
@@ -11,8 +11,8 @@ often in a specific order or for the purpose of counting.
 
 **Express the set of all outfits as 𝑂 = { P (𝑝, 𝑠) ∶ 𝑝 ∈ 𝑃, 𝑠 ∈ 𝑆 } ,
 where 𝑃 is the set of 6 pairs of pants and 𝑆 is the set of 10 shirts.
-Note that 𝑂 = 𝑃 × 𝑆, and so from set theory we have 𝑂 = 𝑃 
->𝑆 = 60.**
+Note that 𝑂 = 𝑃 × 𝑆, and so from set theory we have 𝑂 = 𝑃** 
+>𝑆 = 60.
 
 **Suppose you need to pick a password that has length 6-8 characters,
 where each character is an uppercase letter. How many possible passwords
@@ -23,7 +23,7 @@ are there?**
 **How many license plates can be made which. Start with 2 or 3 uppercase
 letters. Then have 2 or 3 digits from 0-9**
 
-26^2 + 26^3 + 10^2 + 10^3
+>26^2 + 26^3 + 10^2 + 10^3
 
 In a race with 20 runners there are trophies for 1st, 2nd, 3rd place.
 The podium is defined by who wins each of the three trophies. How many different podiums are
