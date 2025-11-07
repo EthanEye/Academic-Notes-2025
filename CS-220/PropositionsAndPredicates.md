@@ -10,7 +10,7 @@
 
 **[Real numbers (ℝ)] -- All rational and irrational numbers (-5, 0, 2.5, √2, π)**
 
-### Propositions: A statement that can be true or false but not both. We can represent these with propositional variables.**
+### <u>Propositions:</u> A statement that can be true or false but not both. We can represent these with propositional variables.
 
 | Variable | Meaning | Truth value |
 |----------|---------|-------------|
@@ -28,7 +28,7 @@
 | **Implication**   | IF...THEN         | ⇒ or →          | p → q        | "**If** it rains, **then** it is cold."         |
 | **Biconditional** | IF AND ONLY IF    | ⇔               | p ⇔ q        | "It rains **if and only if** it is cold."       |
 
-### Predicates: are logical statements or expressions that contain oneor more variables and become a proposition when specific values areassigned to those variables.
+### <u>Predicates:</u> Are logical statements or expressions that contain oneor more variables and become a proposition when specific values areassigned to those variables.
 
 **Ex: P(x): "x is greater than 5"**
 
