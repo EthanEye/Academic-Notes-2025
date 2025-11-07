@@ -2,25 +2,18 @@
 
 ## Number sets:
 
->[Natural numbers (N)]**-- counting numbers (1,2,3,4...)
->[Integers (ℤ)]**-- All whole numbers including zero
->(-3,-2,-1,0,1,2,3...)
->[Rational numbers]**(ℚ) -- Numbers that can be written as
->fraction a,b ∈ ℤ, b ≠0(1/2, -3, 0.25,7...)
->[Real numbers (ℝ)]** -- All rational and irrational numbers
->(-5,0,2.5, √2​,π)
+> [Natural numbers (ℕ)] **-- counting numbers (1, 2, 3, 4...)**
+> [Integers (ℤ)] **-- All whole numbers including zero (-3, -2, -1, 0, 1, 2, 3...)**
+> [Rational numbers (ℚ)] **-- Numbers that can be written as fraction a,b ∈ ℤ, b ≠ 0 (1/2, -3, 0.25, 7...)**
+> [Real numbers (ℝ)] **-- All rational and irrational numbers (-5, 0, 2.5, √2, π)**
 
 ### Propositions: a statement that can be true or false but not both. We can represent these with propositional variables.**
 
-  -----------------------------------------------------------------------
-  Variable                Meaning                 Truth value
-  ----------------------- ----------------------- -----------------------
-*p*                     "It is raining"         T or F
-
-*q*                     "It is cold"            T or F
-
-*r*                     "I will stay inside"    T or F
-  -----------------------------------------------------------------------
+| Variable | Meaning | Truth value |
+|----------|---------|-------------|
+| *p*      | "It is raining" | T or F |
+| *q*      | "It is cold"    | T or F |
+| *r*      | "I will stay inside" | T or F |
 
 ## Logical Operators
 
