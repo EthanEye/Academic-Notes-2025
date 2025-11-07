@@ -1,4 +1,4 @@
-# Counting
+# Counting 9.1
 
 **You have 6 pairs of pants and 10 shirts. An outfit consists of a pair of
 pants and a shirt.
@@ -9,7 +9,8 @@ How many different outfits does this give?**
 **<ins>Enumerating:</ins>** listing out all elements of a set or a collection,
 often in a specific order or for the purpose of counting.
 
-**<ins>Product rule:</ins>**
+## **<ins>Product rule:</ins>**
+
 **A burrito stand sells burritos with different choices of stuffing. The set of choices for each category are:**
 
 >Filling choices {chicken,beef,pork}
@@ -48,6 +49,18 @@ which is a finite set of symbols.
 >The product rule can also be used to determine the number of strings in a set of a >specific combination. 9.1.2
 
 **How many six bit binary strings begin with "01"?**
->{0} x {1} x {0,1}^4 = 1 x 1 x 2^4 = 16
+>{0} x {1} x {0,1}^4 = 1 x 1 x 2^4 = 16 Σ = {0,1}
 
-**<ins>The sum rule:</ins>** The sum rule is applied when multiple choices are available but only one selection is made.
+**How strings of length 4 are there over the alphabet {a,b,c}**
+> {a,b,c}^4 = 81
+
+## **<ins>The sum rule:</ins>** 
+
+**The sum rule is applied when multiple choices are available but only one selection is made.**
+
+Ex: A customer just orders a drink. The customer selects a hot drink or a cold drink. The hot drink selections are {coffe, hot cocoa, tea}. The cold drink selections are {milk, orange juice}. The total number of choices is 5, 3 hot drink choices plus 2 col drink choices.
+
+**Formal Sum Rule:**
+
+$$\text{If } A_1, A_2, \dots, A_k \text{ are mutually exclusive events, then: } \\
+P(A_1 \cup A_2 \cup \dots \cup A_k) = P(A_1) + P(A_2) + \dots + P(A_k)$$
