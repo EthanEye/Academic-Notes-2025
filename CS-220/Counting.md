@@ -17,6 +17,13 @@ often in a specific order or for the purpose of counting.
 >Bean choices {black,pinto}
 >Salsa choices {mild,medium,hot}
 
+**Formal Product Rule:**
+
+$$
+\text{If } A \text{ and } B \text{ are independent events, then: } \\
+P(A \cap B) = P(A) \times P(B)
+$$
+
 **If every burrito has a filling, beans, and salsa, then how many possible burrito combinations are there?**
 > 3 x 2 x 3 = 18
 
@@ -58,9 +65,20 @@ which is a finite set of symbols.
 
 **The sum rule is applied when multiple choices are available but only one selection is made.**
 
-Ex: A customer just orders a drink. The customer selects a hot drink or a cold drink. The hot drink selections are {coffe, hot cocoa, tea}. The cold drink selections are {milk, orange juice}. The total number of choices is 5, 3 hot drink choices plus 2 col drink choices.
+Ex: A customer just orders a drink. The customer selects a hot drink or a cold drink. The hot drink selections are {coffe, hot cocoa, tea}. The cold drink selections are {milk, orange juice}. The total number of choices = 5, 3 hot drink choices plus 2 cold drink choices.
 
 **Formal Sum Rule:**
 
 $$\text{If } A_1, A_2, \dots, A_k \text{ are mutually exclusive events, then: } \\
 P(A_1 \cup A_2 \cup \dots \cup A_k) = P(A_1) + P(A_2) + \dots + P(A_k)$$
+
+**Sum & product rule:**
+
+>Ex: Laptop customization choices:
+>Screen Size: {14in, 15in, 17in}
+>Processor Speed: {2.0 GHz, 2.7 Ghz}
+>Storage: SSD OR HDD
+>SSD - {126G, 256G, 512G}
+>HDD - {256G, 512G}
+
+>> Laptop selection = 3 x 2 (3 + 2)
