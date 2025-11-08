@@ -34,7 +34,18 @@ Reminder: The powerset denoted P(X) is the set of all subsets of X. {0,1}^3 the 
 
 A group of kids at a slumber party leave their shoes in a pile at the door. One way to count the number of kids at the party is to count the number of shoes and divide by 2. One must establish that each kid has exactly one pair of shoes in the pile. Counting kids by counting shoes and dividing by 2 is an example of the k-to-2 rule with k = 2.Applying the k-to-1 rule requires a well-defined function from objects one can count to objects one wants to count. In the example with the shoes, the function maps each shoe to the kid who owns it. Below is a definition of the kind of function that is required:
 
-If a function $f: A \to B$ is **k-to-1**, meaning that **each element of $B$ has exactly $k$ preimages in $A$**, then:
+If a function $f: A \to B$ is **k-to-1**, meaning that for each output element in a set it has exactly k inputs mapping from another set. 
+
+>B = {a,b}
+>A = {1,2,3,4,5,6}
+>k = 3
+>
+>Then:
+>
+> f(1) = a f(2) = a f(3) =a
+> f(4) = b f(5) = b f(6) = b
+>
+>So each output has 3 inputs mapping to it
 
 $$
 |A| = k \cdot |B|
@@ -43,6 +54,7 @@ $$
 #### Explanation
 - For every $y \in B$, there are exactly $k$ distinct $x \in A$ such that $f(x) = y$.
 - So the size of the domain $A$ is $k$ times the size of the codomain $B$.
+
 
 #### Example
 If $f: \{1,2,3,4,5,6\} \to \{a,b\}$ is 3-to-1:
