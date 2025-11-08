@@ -36,14 +36,16 @@ A group of kids at a slumber party leave their shoes in a pile at the door. One 
 
 If a function $f: A \to B$ is **k-to-1**, meaning that for each output element in a set it has exactly k inputs mapping from another set. 
 
->B = {a,b}
->A = {1,2,3,4,5,6}
->k = 3
+>If:
+>
+>- B = {a,b}
+>- A = {1,2,3,4,5,6}
+>- k = 3
 >
 >Then:
 >
-> f(1) = a f(2) = a f(3) =a
-> f(4) = b f(5) = b f(6) = b
+> - f(1) = a f(2) = a f(3) =a
+> - f(4) = b f(5) = b f(6) = b
 >
 >So each output has 3 inputs mapping to it
 
